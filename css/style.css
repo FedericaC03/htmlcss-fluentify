@@ -98,6 +98,20 @@ header::after {
    border: none;
    padding: 15px;
    font-size: 20px;
+}
 
+.sezione-grigia {
+  height: 150px;
+  background-color: #D3D3D3;
+  text-align: center;
+}
 
+.sezione-grigia p {
+  color: #808080;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.sezione-grigia h2 {
+  padding-top: 30px;
 }
