@@ -30,19 +30,24 @@ header::after {
   vertical-align: middle;
 }
 
-.login p {
+.login a {
   display: inline-block;
   color: white;
   font-size: 15px;
   padding-left: 20px;
+  text-decoration: none;
 }
 
 .menu ul li {
   list-style: none;
   display:inline;
-  color: white;
   font-size: 15px;
   padding-right: 15px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
 }
 
 .logo {
@@ -116,12 +121,6 @@ header::after {
   padding-top: 30px;
 }
 
-/* main section {
-  width: 20%;
-  display: inline-block;
-  padding: 60px;
-} */
-
 main {
   background-color: white;
 }
@@ -186,4 +185,90 @@ section hr {
   content: "";
   display: block;
   clear: both;
+}
+
+.seconda-sezione section img {
+  width: 75%;
+  padding: 40px 0px 20px 80px;
+}
+
+.seconda-colonna {
+   height: 400px;
+   padding: 40px;
+   width: 300px;
+}
+
+.seconda-colonna h1 {
+  width: 80%;
+  font-size: 40px;
+}
+
+.seconda-sezione p {
+  color: #AEAEAE;
+  font-size: 25px;
+  padding-top: 20px;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.seconda-sezione a {
+  color: #5F94CA;
+}
+
+footer {
+  background-color: #C1C1C1;
+  height: 170px;
+}
+
+.first-column p {
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 60px;
+  margin-top: 70px;
+}
+
+.first-column , .second-column {
+  float: left;
+}
+
+footer::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.second-column {
+  width: 70%;
+  text-align: right;
+  height: 100px;
+  padding-top: 70px;
+}
+
+.second-column ul li {
+  display: inline;
+}
+
+li .button {
+  background-color: #7CBB02;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  margin-bottom: 5px;
+}
+
+.second-column ul li {
+  color: #818181;
+}
+
+li select {
+  color: #818181;
+  border: none;
+  background-color: Transparent;
+  border-bottom: 1px solid grey;
+  padding-right: 20px;
+
+}
+
+.help {
+  margin-right: 65px;
 }
