@@ -115,3 +115,40 @@ header::after {
 .sezione-grigia h2 {
   padding-top: 30px;
 }
+
+/* main section {
+  width: 20%;
+  display: inline-block;
+  padding: 60px;
+} */
+
+main {
+  background-color: white;
+}
+
+main section {
+  float: left;
+  width: 25%;
+  padding: 80px;
+  margin: 60px;
+}
+
+main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+main .left {
+  background-color: blue;
+}
+main .central {
+  background-color: red;
+}
+main .right {
+  background-color: green;
+}
+
+.descrizione-img h2 {
+  color: #7CBB02;
+}
