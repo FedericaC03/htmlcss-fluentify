@@ -129,7 +129,6 @@ main {
 main section {
   float: left;
   width: 25%;
-  padding: 80px;
   margin: 60px;
 }
 
@@ -139,16 +138,52 @@ main::after {
   clear: both;
 }
 
-main .left {
-  background-color: blue;
-}
-main .central {
-  background-color: red;
-}
-main .right {
-  background-color: green;
-}
-
 .descrizione-img h2 {
   color: #7CBB02;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+.descrizione-img p {
+  text-align: center;
+  padding-top: 10px;
+  color: #AEAEAE;
+  font-size: 20px;
+}
+
+section hr {
+  width:100px;
+  margin:auto;
+}
+
+.left img {
+ width: 200px;
+ margin-left: 25%;
+}
+
+.central img {
+  width: 340px;
+  margin-left: 10%;
+}
+
+.right img {
+  width: 235px;
+  margin-left: 20%;
+}
+
+.seconda-sezione {
+  background-color: white;
+}
+
+.seconda-sezione section {
+  width: 50%;
+  float: left;
+}
+
+.seconda-sezione::after {
+  content: "";
+  display: block;
+  clear: both;
 }
