@@ -36,7 +36,6 @@ header::after {
   color: white;
   font-size: 15px;
   text-decoration: none;
-
 }
 
 .menu ul li {
@@ -56,14 +55,12 @@ header::after {
 }
 
 .login .button {
-  background-color: none;
   padding: 5px 15px;
   border-radius: 5px;
   border:1px solid white;
   background-color: Transparent;
   color: white;
   margin-left: 10px;
-
 }
 
 .login .piano {
@@ -269,7 +266,6 @@ li select {
   background-color: Transparent;
   border-bottom: 1px solid grey;
   padding-right: 20px;
-
 }
 
 .help {
